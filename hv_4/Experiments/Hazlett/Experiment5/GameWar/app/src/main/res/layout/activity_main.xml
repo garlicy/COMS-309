@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/feltback"
+    android:id="@+id/container"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/Deck"
+        android:layout_width="80dp"
+        android:layout_height="120dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/blueback" />
+    <ImageView
+        android:id="@+id/DeckBack"
+        android:layout_width="80dp"
+        android:layout_height="120dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/blueback" />
+
+    <ImageView
+        android:id="@+id/OpponentCards"
+        android:layout_width="80dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="-20dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/blueback"/>
+    <ImageView
+        android:id="@+id/OpponentCardsBack"
+        android:layout_width="80dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="-20dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/blueback"/>
+    <ImageView
+        android:id="@+id/Cards"
+        android:layout_width="80dp"
+        android:layout_height="120dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-20dp"
+        android:src="@drawable/blueback"/>
+    <ImageView
+        android:id="@+id/CardsBack"
+        android:layout_width="80dp"
+        android:layout_height="120dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-20dp"
+        android:src="@drawable/blueback"/>
+    <ImageView
+        android:id="@+id/OpponentPile"
+        android:layout_width="80dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/blueback"/>
+    <ImageView
+        android:id="@+id/Pile"
+        android:layout_width="80dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="300dp"
+        android:src="@drawable/blueback"/>
+    <ImageView
+        android:id="@+id/Play"
+        android:layout_width="80dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="250dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/blueback"/>
+    <ImageView
+        android:id="@+id/OpponentPlay"
+        android:layout_width="80dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="380dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/blueback"/>
+
+
+</RelativeLayout>

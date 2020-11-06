@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StartScreens.SignUpImageSelection"
+    android:background="@color/colorBlack">
+
+    <TableLayout
+        android:id="@+id/tableIconSelect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="3"
+            android:paddingRight="15dp"
+            android:paddingLeft="15dp"
+            android:layout_marginTop="50dp">
+
+            <ImageView
+                android:id="@+id/icon1"
+                android:layout_height="100dp"
+                android:layout_width="100dp"
+                android:layout_weight="1"
+                android:src="@drawable/icon1"/>
+            <ImageView
+                android:id="@+id/icon2"
+                android:layout_height="100dp"
+                android:layout_width="100dp"
+                android:layout_weight="1"
+                android:src="@drawable/icon4"/>
+            <ImageView
+                android:id="@+id/icon3"
+                android:layout_height="100dp"
+                android:layout_width="100dp"
+                android:layout_weight="1"
+                android:src="@drawable/icon5"/>
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="3"
+            android:paddingRight="15dp"
+            android:paddingLeft="15dp"
+            android:layout_marginTop="50dp">
+
+            <ImageView
+                android:id="@+id/icon4"
+                android:layout_height="100dp"
+                android:layout_width="100dp"
+                android:layout_weight="1"
+                android:src="@drawable/icon6"/>
+            <ImageView
+                android:id="@+id/icon5"
+                android:layout_height="100dp"
+                android:layout_width="100dp"
+                android:layout_weight="1"
+                android:src="@drawable/icon2"/>
+            <ImageView
+                android:id="@+id/icon6"
+                android:layout_height="100dp"
+                android:layout_width="100dp"
+                android:layout_weight="1"
+                android:src="@drawable/icon3"/>
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="3"
+            android:paddingRight="15dp"
+            android:paddingLeft="15dp"
+            android:layout_marginTop="50dp">
+
+            <ImageView
+                android:id="@+id/icon7"
+                android:layout_height="100dp"
+                android:layout_width="100dp"
+                android:layout_weight="1"
+                android:src="@drawable/icon7"/>
+            <ImageView
+                android:id="@+id/icon8"
+                android:layout_height="100dp"
+                android:layout_width="100dp"
+                android:layout_weight="1"
+                android:src="@drawable/icon8"/>
+            <ImageView
+                android:id="@+id/icon9"
+                android:layout_height="100dp"
+                android:layout_width="100dp"
+                android:layout_weight="1"
+                android:src="@drawable/icon9"/>
+
+        </TableRow>
+
+    </TableLayout>
+</RelativeLayout>

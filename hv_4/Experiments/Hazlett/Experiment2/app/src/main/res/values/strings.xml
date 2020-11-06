@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">GuessGame</string>
+    <string name="checkmark">\u2713</string>
+</resources>

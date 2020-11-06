@@ -1,0 +1,21 @@
+
+
+image: maven:latest
+
+stages:
+  - test
+
+test_job:
+  stage: test
+  script:
+    - pwd
+    - mvn -f Backend/Suh/cardgamemaker/pom.xml clean
+    - mvn -f Backend/Suh/cardgamemaker/pom.xml compile
+#    - mvn -f Backend/Suh/cardgamemaker/pom.xml test    
+    - mvn -f Backend/Suh/cardgamemaker/pom.xml install
+    - mv Backend/Suh/cardgamemaker/target/cardgamemaker*.jar /home/jsuh/app.jar
+#    - kill -9 $(lsof -ti:8080)
+#    - nohup java -jar /home/jsuh/app.jar > /home/jsuh/appstartup.log &
+
+  tags:
+    - maven

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StartScreens.Lobby">
+
+    <FrameLayout
+        android:id="@+id/cgm_shell_vert"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TabWidget
+            android:id="@+id/tab"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/colorDarkBlue">
+
+        </TabWidget>
+
+        <TabWidget
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom"
+            android:background="@color/colorDarkBlue" />
+
+        <Spinner
+            android:id="@+id/SPIN_Lobby"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="345dp"
+            android:layout_marginTop="10dp"
+            android:dropDownWidth="100dp"
+            />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="350dp"
+            android:src="@drawable/settings" />
+        <ImageView
+            android:id="@+id/LOBBY_UsersImg"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@color/colorWhite"
+            />
+
+        <TextView
+            android:id="@+id/LOBBY_UsersName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="55dp"
+            android:text="User name"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/colorWhite"
+            android:fontFamily="@font/pacifico"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:src="@drawable/logo"
+            android:layout_gravity="bottom"
+        />
+
+        <ImageButton
+            android:id="@+id/search_button"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="1dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            app:srcCompat="@android:drawable/ic_menu_search" />
+
+    </FrameLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
+        android:background="@color/colorBlack">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/login4"
+            android:alpha="0.4"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="0dp"
+            android:src="@drawable/logo"
+            />
+        <Button
+            android:id="@+id/BTN_play"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="75dp"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@+id/BTN_design"
+            android:layout_marginBottom="10dp"
+            android:text="Play"
+            android:textSize="25dp"
+            android:textAllCaps="false"
+            />
+        <Button
+            android:id="@+id/BTN_design"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="75dp"
+            android:layout_marginBottom="30dp"
+            android:text="Design"
+            android:textSize="25dp"
+            android:textAllCaps="false"
+            />
+
+
+        <ListView
+            android:id="@+id/users_list"
+            android:layout_width="205dp"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/BTN_play"
+            android:layout_below="@+id/search_bar"
+            android:layout_marginLeft="2dp"
+            android:background="@color/colorDarkBlue"
+            android:visibility="gone"
+            />
+
+        <ListView
+            android:id="@+id/games_list"
+            android:layout_width="205dp"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/BTN_play"
+            android:layout_below="@+id/search_bar"
+            android:layout_marginLeft="207dp"
+            android:background="@color/colorDarkBlue"
+            android:visibility="gone"
+            />
+
+        <SearchView
+            android:id="@+id/search_bar"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/colorWhite"
+            android:visibility="gone"
+            />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

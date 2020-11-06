@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile.EditProfile">
+
+    <FrameLayout
+        android:id="@+id/cgm_shell_vert"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorBlackBackgroundET">
+
+        <TabWidget
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/colorDarkBlue" />
+
+        <TabWidget
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom"
+            android:background="@color/colorDarkBlue" />
+
+        <Spinner
+            android:id="@+id/SPIN_editprofile"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="345dp"
+            android:layout_marginTop="10dp"
+            android:dropDownWidth="100dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="350dp"
+            android:src="@drawable/settings" />
+
+        <ImageView
+            android:id="@+id/BACK_editprofile"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="290dp"
+            android:src="@drawable/back_arrow" />
+
+        <ImageView
+            android:id="@+id/editProfile_userImage"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@color/colorWhite" />
+
+        <TextView
+            android:id="@+id/editProfile_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/pacifico"
+            android:text="User name"
+            android:textColor="@color/colorWhite"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom"
+            android:src="@drawable/logo" />
+
+
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/change_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="65dp"
+        android:background="@color/colorBlackBackgroundET"
+        android:text="Change Password"
+        android:textColor="@color/colorWhite"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/old_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="100dp"
+        android:background="@color/colorDarkBlue"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Old Password"
+        android:textColor="@color/colorWhite"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/new_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="145dp"
+        android:background="@color/colorDarkBlue"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="New Password"
+        android:textColor="@color/colorWhite"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/confirm_new_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="190dp"
+        android:background="@color/colorDarkBlue"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Confirm New Password"
+        android:textColor="@color/colorWhite"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/submit_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="230dp"
+        android:background="@color/colorDarkBlue"
+        android:text="Submit Change"
+        android:textColor="@color/colorWhite"
+        android:textSize="12sp" />
+
+</RelativeLayout>

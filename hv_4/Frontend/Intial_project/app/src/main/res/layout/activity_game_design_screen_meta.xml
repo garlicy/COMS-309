@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlack"
+    tools:context=".GameDesign.GameDesignScreenMeta">
+
+
+    <TabWidget
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorDarkBlue" />
+
+    <TabWidget
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:background="@color/colorDarkBlue" />
+
+    <Spinner
+        android:id="@+id/SPINNER_Cards"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="330dp"
+        android:layout_marginTop="10dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="350dp"
+        android:src="@drawable/settings" />
+
+    <ImageView
+        android:id="@+id/CARDS_UsersImage"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@color/colorWhite" />
+
+    <TextView
+        android:id="@+id/CARDS_UsersName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="55dp"
+        android:fontFamily="@font/pacifico"
+        android:text="User name"
+        android:textColor="@color/colorWhite"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:src="@drawable/logo" />
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:weightSum="4">
+
+        <Button
+            android:id="@+id/metaButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="#EEEEBB"
+            android:text="Meta"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/playAreasButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="Play Areas"
+            android:textAllCaps="false"
+            android:textSize="12dp" />
+
+        <Button
+            android:id="@+id/winningButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="Winning"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/phasesButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="Phases"
+            android:textAllCaps="false" />
+    </TableRow>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="50dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/backButton"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="470dp"
+                android:backgroundTint="#DD5050"
+                android:text="Back"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/doneButton"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="520dp"
+                android:backgroundTint="#50CC50"
+                android:text="Done"
+                android:textAllCaps="false" />
+
+            <EditText
+                android:id="@+id/gameNameInput"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="33dp"
+                android:layout_marginTop="27dp"
+                android:backgroundTint="@color/colorWhite"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Insert Game Name"
+                android:textColor="@color/colorWhite" />
+
+            <EditText
+                android:id="@+id/instructions"
+                android:layout_width="291dp"
+                android:layout_height="156dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="34dp"
+                android:layout_marginTop="107dp"
+                android:backgroundTint="@color/colorWhite"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:text="Input Instructions here"
+                android:textColor="@color/colorWhite" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="284dp"
+                android:text="Number of Players:"
+                android:textColor="@color/colorWhite"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/numberOfPlayers"
+                android:layout_width="188dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="273dp"
+                android:layout_marginEnd="23dp"
+                android:backgroundTint="@color/colorWhite"
+                android:ems="10"
+                android:inputType="number"
+                android:text="1"
+                android:textColor="@color/colorWhite" />
+
+            <EditText
+                android:id="@+id/numberOfDecks"
+                android:layout_width="188dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/numberOfPlayers"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="26dp"
+                android:backgroundTint="@color/colorWhite"
+                android:ems="10"
+                android:inputType="number"
+                android:text="1"
+                android:textColor="@color/colorWhite" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="156dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView11"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="251dp"
+                android:text="Number of Decks:"
+                android:textColor="@color/colorWhite"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/cardEditButton"
+                android:layout_width="177dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="404dp"
+                android:layout_marginEnd="32dp"
+                android:backgroundTint="@color/colorLightBlue"
+                android:text="Edit Card Values" />
+
+        </RelativeLayout>
+    </ScrollView>
+</FrameLayout>

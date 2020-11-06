@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Lobby</string>
+    <string name="title_message">Card Game Creator</string>
+    <string name="play_button_message">PLAY</string>
+    <string name="design_button_message">DESIGN</string>
+    <string name="back_button">BACK</string>
+    <string name="usernameText">username</string>
+    <string name="account_button">Account</string>
+    <string name="friends">FRIENDS</string>
+    <string name="games">GAMES</string>
+    <string name="decks">DECKS</string>
+</resources>

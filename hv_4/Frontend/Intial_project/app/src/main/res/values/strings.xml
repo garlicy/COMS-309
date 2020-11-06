@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Card Game Maker</string>
+    <string-array name="SET_default">
+        <item> </item>
+        <item>Profile</item>
+        <item>Settings</item>
+        <item>Help</item>
+        <item>Sign Out</item>
+    </string-array>
+    <string-array name="SET_InGame">
+        <item> </item>
+        <item>Settings</item>
+        <item>Help</item>
+        <item>Leave Game</item>
+    </string-array>
+    <string name="URL_ADD_USER">http://coms-309-hv-4.cs.iastate.edu:8080/demo/register</string>
+    <string name="URL_LOGIN_USER">http://coms-309-hv-4.cs.iastate.edu:8080/demo/login</string>
+    <string name="URL_CHANGE_PASSWORD">http://coms-309-hv-4.cs.iastate.edu:8080/demo/changepassword</string>
+    <string name="URL_ECHO_PUT">https://postman-echo.com/put</string>
+    <string name="URL_ECHO_GET_USER">https://postman-echo.com/get?name=Colton Hazlett&amp;image=2131165273</string>
+    <string name="URL_ECHO_POST_GET_CAT">https://postman-echo.com/get?total=2&amp;name1=Casino&amp;name2=Strategy</string>
+    <string name="URL_ECHO_POST_GET_DEFAULT_GAMES">https://postman-echo.com/get?total=2&amp;name1=Casino&amp;name2=Strategy</string>
+    <string name="URL_ECHO_POST_GET_WAR_INFO">https://postman-echo.com/get?name=War&amp;creator=hazlnuts&amp;image=2131165337&amp;overview=" +
+    "The point of the game is to battle your opponent, each player starts with the same amount cards and then continue to lay cards to battle." +
+    "&amp;rules=Each player has 26 cards to start, the higher card wins the battle, there is a tie if the card value is the same, and tie breakers" +
+    "are 3 cards face down and then flip another card to decide.&amp;scoring=It is simple the person with the most/all cards wins&amp;extrainfo=" +
+    "May the best person win";</string>
+    <string name="title_activity_game_design_for_mockito_tests">GameDesignActivityForMockitoTests
+    </string>
+    <string name="title_activity_for_mockito_tests">ForMockitoTests</string>
+</resources>

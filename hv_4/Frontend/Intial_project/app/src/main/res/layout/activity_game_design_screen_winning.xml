@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlack"
+    tools:context=".GameDesign.GameDesignScreenMeta">
+
+
+    <TabWidget
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorDarkBlue" />
+
+    <TabWidget
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:background="@color/colorDarkBlue" />
+
+    <Spinner
+        android:id="@+id/SPINNER_Winning"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="330dp"
+        android:layout_marginTop="10dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="350dp"
+        android:src="@drawable/settings" />
+
+    <ImageView
+        android:id="@+id/WINNING_UsersImage"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@color/colorWhite" />
+
+    <TextView
+        android:id="@+id/WINNING_UsersName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="55dp"
+        android:fontFamily="@font/pacifico"
+        android:text="User name"
+        android:textColor="@color/colorWhite"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:src="@drawable/logo" />
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:weightSum="4">
+
+        <Button
+            android:id="@+id/metaButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="Meta"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/playAreasButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="Play Areas"
+            android:textAllCaps="false"
+            android:textSize="12dp" />
+
+        <Button
+            android:id="@+id/winningButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="#EEEEBB"
+            android:text="Winning"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/phasesButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="Phases"
+            android:textAllCaps="false" />
+    </TableRow>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="50dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/backButton"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="470dp"
+                android:backgroundTint="#DD5050"
+                android:text="Back"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/doneButton"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="520dp"
+                android:backgroundTint="#50CC50"
+                android:text="Done"
+                android:textAllCaps="false" />
+
+            <RadioGroup
+                android:id="@+id/endingRadios"
+                android:layout_width="188dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="30dp"
+                android:checkedButton="@id/pointsTotWinCon">
+
+                <RadioButton
+                    android:id="@+id/pointsTotWinCon"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/colorWhite"
+                    android:text="Points (Total)"
+                    android:textColor="@color/colorWhite" />
+
+                <RadioButton
+                    android:id="@+id/pointsIndWinCon"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/colorWhite"
+                    android:text="Points (Individual)"
+                    android:textColor="@color/colorWhite" />
+
+                <RadioButton
+                    android:id="@+id/exhaustWinCon"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/colorWhite"
+                    android:text="Exhaust Deck"
+                    android:textColor="@color/colorWhite" />
+
+                <RadioButton
+                    android:id="@+id/turnsWinCon"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/colorWhite"
+                    android:text="Rounds pass"
+                    android:textColor="@color/colorWhite" />
+            </RadioGroup>
+
+            <EditText
+                android:id="@+id/pointGoal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="139dp"
+                android:layout_marginTop="180dp"
+                android:backgroundTint="@color/colorWhite"
+                android:ems="10"
+                android:inputType="number"
+                android:textColor="@color/colorWhite" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="38dp"
+                android:layout_marginTop="194dp"
+                android:text="Point Goal"
+                android:textColor="@color/colorWhite"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView3"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="36dp"
+                android:layout_marginTop="48dp"
+                android:text="Deck to Exhaust"
+                android:textColor="@color/colorWhite"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/deckExhaustChoice"
+                android:layout_width="242dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/pointGoal"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="42dp"
+                android:layout_marginBottom="216dp"
+                android:layout_toEndOf="@+id/textView4"
+                android:backgroundTint="@color/colorWhite"
+                android:foregroundTint="@color/colorWhite" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView4"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="39dp"
+                android:layout_marginTop="21dp"
+                android:text="Total Rounds"
+                android:textColor="@color/colorWhite"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/totalRounds"
+                android:layout_width="191dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="307dp"
+                android:layout_marginEnd="56dp"
+                android:backgroundTint="@color/colorWhite"
+                android:ems="10"
+                android:inputType="number"
+                android:textColor="@color/colorWhite" />
+
+        </RelativeLayout>
+    </ScrollView>
+</FrameLayout>

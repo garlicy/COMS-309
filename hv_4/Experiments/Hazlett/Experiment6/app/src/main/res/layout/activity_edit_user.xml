@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlack"
+    tools:context=".EditUser">
+
+    <TextView
+        android:id="@+id/nameTextUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:text="Enter name"
+        android:textColor="@color/colorWhite"
+        android:textSize="20dp"
+        />
+
+    <EditText
+        android:id="@+id/findUserName"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+        android:layout_below="@+id/nameTextUpdate"
+        android:layout_marginLeft="10dp"
+        />
+    <Button
+        android:id="@+id/deleteButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete User"
+        android:layout_below="@id/findUserName"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="150dp"
+        />
+    <Button
+        android:id="@+id/updateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update User"
+        android:layout_below="@+id/findUserName"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        />
+
+    <TextView
+        android:id="@+id/nameEditTextUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="10dp"
+        android:text="Enter Name"
+        android:textColor="@color/colorWhite"
+        android:textSize="20dp"
+        />
+
+    <EditText
+        android:id="@+id/UserNameETUpdate"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+        android:layout_below="@+id/nameEditTextUpdate"
+        android:layout_marginLeft="10dp"
+        />
+    <TextView
+        android:id="@+id/emailTextUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/UserNameETUpdate"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:text="Enter email"
+        android:textColor="@color/colorWhite"
+        android:textSize="20dp"
+        />
+
+    <EditText
+        android:id="@+id/UserEmailUpdate"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+        android:layout_below="@+id/emailTextUpdate"
+        android:layout_marginLeft="10dp"
+        />
+    <TextView
+        android:id="@+id/passwordUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/UserEmailUpdate"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:text="Enter password"
+        android:textColor="@color/colorWhite"
+        android:textSize="20dp"
+        />
+
+    <EditText
+        android:id="@+id/UserPasswordUpdate"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+        android:layout_below="@+id/passwordUpdate"
+        android:layout_marginLeft="10dp"
+        />
+    <Button
+        android:id="@+id/updateActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/UserPasswordUpdate"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="Update"
+    />
+    <Button
+        android:id="@+id/goToDB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View DB"
+        android:layout_below="@+id/UserPasswordUpdate"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="100dp"
+        />
+</RelativeLayout>

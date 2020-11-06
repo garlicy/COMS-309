@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".JsonVolley">
+    <Button
+        android:id="@+id/btnJsonObj"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="JSON Object Request" />
+
+    <Button
+        android:id="@+id/btnJsonArray"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="JSON Array Request" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Response: " />
+
+    <TextView
+        android:id="@+id/msgResponse"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="" />
+
+
+</LinearLayout>

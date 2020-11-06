@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlack"
+    tools:context=".GameDesign.GameDesignScreenMeta">
+
+
+    <TabWidget
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorDarkBlue" />
+
+    <TabWidget
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:background="@color/colorDarkBlue" />
+
+    <Spinner
+        android:id="@+id/SPINNER_Phases"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="330dp"
+        android:layout_marginTop="10dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="350dp"
+        android:src="@drawable/settings" />
+
+    <ImageView
+        android:id="@+id/PHASES_UsersImage"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@color/colorWhite" />
+
+    <TextView
+        android:id="@+id/PHASES_UsersName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="55dp"
+        android:fontFamily="@font/pacifico"
+        android:text="User name"
+        android:textColor="@color/colorWhite"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:src="@drawable/logo" />
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:weightSum="4">
+
+        <Button
+            android:id="@+id/metaButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="Meta"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/playAreasButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="Play Areas"
+            android:textAllCaps="false"
+            android:textSize="12dp" />
+
+        <Button
+            android:id="@+id/winningButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="Winning"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/phasesButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="#EEEEBB"
+            android:text="Phases"
+            android:textAllCaps="false" />
+    </TableRow>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="50dp">
+
+        <LinearLayout
+            android:id="@+id/phaseView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phase 1"
+                android:textColor="@color/colorWhite"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="If the top card of"
+                android:textColor="@color/colorWhite"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/first"
+                android:layout_width="244dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorWhite"
+                android:foregroundTint="@color/colorWhite" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Is "
+                android:textColor="@color/colorWhite"
+                android:textSize="18sp" />
+
+            <RadioGroup
+                android:id="@+id/comparators"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radioButton13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:buttonTint="@color/colorWhite"
+                    android:text="less than"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="8sp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:buttonTint="@color/colorWhite"
+                    android:text="less or equal"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="8sp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:buttonTint="@color/colorWhite"
+                    android:text="equal"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="8sp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton14"
+                    android:layout_width="68dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:buttonTint="@color/colorWhite"
+                    android:text="greater or equal"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="8sp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:buttonTint="@color/colorWhite"
+                    android:text="greater"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="8sp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:buttonTint="@color/colorWhite"
+                    android:text="Not equal"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="8sp" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The top card of"
+                android:textColor="@color/colorWhite"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/second"
+                android:layout_width="264dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorWhite"
+                android:foregroundTint="@color/colorWhite" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Then move a card from"
+                android:textColor="@color/colorWhite"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/from"
+                android:layout_width="181dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorWhite"
+                android:foregroundTint="@color/colorWhite" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="To"
+                android:textColor="@color/colorWhite"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/to"
+                android:layout_width="345dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorWhite"
+                android:foregroundTint="@color/colorWhite" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chosen by"
+                android:textColor="@color/colorWhite"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/chosenBy"
+                android:layout_width="305dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorWhite"
+                android:foregroundTint="@color/colorWhite" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Give points"
+                android:textColor="@color/colorWhite"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/pointVal"
+                android:layout_width="273dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorWhite"
+                android:ems="10"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="To"
+                android:textColor="@color/colorWhite"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/pointGetter"
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorWhite"
+                android:foregroundTint="@color/colorWhite"
+                android:textColor="@color/colorWhite" />
+
+            <Button
+                android:id="@+id/addNewPhase"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add New Phase" />
+
+            <Button
+                android:id="@+id/backButton"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:backgroundTint="#DD5050"
+                android:text="Back"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/doneButton"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:backgroundTint="#50CC50"
+                android:text="Done"
+                android:textAllCaps="false" />
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

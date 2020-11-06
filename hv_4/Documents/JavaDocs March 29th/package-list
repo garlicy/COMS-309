@@ -1,0 +1,12 @@
+com.example.cardgames
+com.example.cardgames.Categories
+com.example.cardgames.GameDesign
+com.example.cardgames.Games
+com.example.cardgames.Games.Poker
+com.example.cardgames.Games.War
+com.example.cardgames.Profile
+com.example.cardgames.Settings
+com.example.cardgames.StartScreens
+com.example.cardgames.app
+com.example.cardgames.graphicsCGM
+com.example.cardgames.net_utils

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/GameScreenVertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/feltback"
+    tools:context=".Games.GameScreen">
+
+    <FrameLayout
+        android:id="@+id/Frame_GS_Vert"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TabWidget
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/colorDarkBlue" >
+
+        </TabWidget>
+
+        <TabWidget
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom"
+            android:background="@color/colorDarkBlue" />
+
+        <Spinner
+            android:id="@+id/SPIN_GS_Vert"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="345dp"
+            android:layout_marginTop="10dp"
+            android:dropDownWidth="120dp"
+            />
+        <ImageView
+            android:id="@+id/INFO_GS_Vert"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/questionmark"
+            android:layout_marginTop="6dp"
+            android:layout_marginLeft="300dp"
+            />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/settings"
+            android:layout_marginLeft="350dp"
+            />
+        <ImageView
+            android:id="@+id/ChatIcon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/chat_room"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="365dp"
+            android:layout_marginBottom="5dp"
+            />
+        <ImageView
+            android:id="@+id/GS_Vert_UsersImg"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@color/colorWhite"
+            />
+
+        <TextView
+            android:id="@+id/GS_Vert_UsersName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="55dp"
+            android:text="User name"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/colorWhite"
+            android:fontFamily="@font/pacifico"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:src="@drawable/logo"
+            android:layout_gravity="bottom"
+            />
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/deal_BTN"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@color/colorLightBlue"
+        android:text="Deal"
+        android:textAllCaps="false"
+        android:visibility="invisible"/>
+    <Button
+        android:id="@+id/addPlayer_BTN_BTN"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@color/colorLightBlue"
+        android:text="+ Add Player"
+        android:textAllCaps="false"
+        android:visibility="invisible"/>
+    <Button
+        android:id="@+id/createGame_BTN"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@color/colorLightBlue"
+        android:text="Create Game"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/play_BTN"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/createGame_BTN"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorLightBlue"
+        android:text="Play Game"
+        android:textAllCaps="false"
+        android:visibility="invisible"/>
+
+</RelativeLayout>

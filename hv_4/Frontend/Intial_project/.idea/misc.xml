@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavadocGenerationManager">
+<<<<<<< HEAD
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/../../.." />
+=======
+<<<<<<< HEAD
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/../../Documents/Riess' JavaDocs" />
+=======
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/../../Documents" />
+>>>>>>> 9c7caff90af06167eb4578a77453fbc38b53d31e
+>>>>>>> d999c9cbd757e02393c05d6d1002a6374e9bea93
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/profile_screen_id"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlackBackgroundET"
+    tools:context=".Profile.profile">
+
+    <FrameLayout
+        android:id="@+id/cgm_shell_vert"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TabWidget
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/colorDarkBlue" />
+
+        <TabWidget
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom"
+            android:background="@color/colorDarkBlue" />
+
+        <Spinner
+            android:id="@+id/SPIN_profile"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="345dp"
+            android:layout_marginTop="10dp"
+            android:dropDownWidth="100dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="350dp"
+            android:src="@drawable/settings" />
+
+        <ImageView
+            android:id="@+id/BACK_profile"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="290dp"
+            android:src="@drawable/back_arrow" />
+
+        <ImageView
+            android:id="@+id/profile_UserImage"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@color/colorWhite" />
+
+        <TextView
+            android:id="@+id/profile_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/pacifico"
+            android:text="User name"
+            android:textColor="@color/colorWhite"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom"
+            android:src="@drawable/logo" />
+
+        <Button
+            android:id="@+id/account_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="130dp"
+            android:layout_marginTop="630dp"
+            android:fontFamily="@font/pacifico"
+            android:text="Edit Account"
+            android:textSize="14sp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp">
+
+            <LinearLayout
+                android:id="@+id/profile_linear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" />
+        </ScrollView>
+
+        <TextView
+            android:id="@+id/friends_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="170dp"
+            android:layout_marginTop="60dp"
+            android:fontFamily="@font/pacifico"
+            android:text="FRIENDS"
+            android:textColor="@color/colorWhite"
+            android:textSize="14sp" />
+
+    </FrameLayout>
+
+</RelativeLayout>
