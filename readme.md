@@ -6,11 +6,11 @@ Game similar to Super Mario Maker, but uses card.
 Our project will give users the ability to create any type of card games from trading games, gambling games, and etc. It will allow users to create an account to make games, follow other users, customize card decks, and play other users games. There will be an area to find games from default games, popular games, and brand new games.
 There will be three different types of users the Players, Creators, and Moderator.
 
-*The players play any of the games that have been posted and will be able to have a live chat with the other players currently playing. They also can give the ratings to the card game and give a feedback to the Creators. 
+* The players play any of the games that have been posted and will be able to have a live chat with the other players currently playing. They also can give the ratings to the card game and give a feedback to the Creators. 
 
-*Creators have the ability to create any kind of gamethat they would like and can choose from customized decks to the default deck of cards.
+* Creators have the ability to create any kind of gamethat they would like and can choose from customized decks to the default deck of cards.
 
-*Moderators will be monitoring the new decks of cards and games and need to beapproved before being published.
+* Moderators will be monitoring the new decks of cards and games and need to beapproved before being published.
 
 # Tasks
 ## Spring Boot 
