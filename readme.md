@@ -15,6 +15,13 @@ Moderators will be monitoring the new decks of cards and games and need to beapp
 # Tasks
 ## Spring Boot 
   * Each card game should have multi users
+  * Server connects Database
+  * Using MVC model
+  * User puts data, service fetches it, conveys it to the database
+
+## MySQL
+  * Save the data from user via server
+  * Save pre-made games for sample (e.g. War, Poker)
      
 ## Android Studio - User interface
    ![01](./hv_4/Documents/Captures/card_editor.png)   
@@ -22,18 +29,19 @@ Moderators will be monitoring the new decks of cards and games and need to beapp
       
    ![02](./hv_4/Documents/Captures/game_editor.png)   
    Game Edit Page
-   
-   ### For more details
-   * [Card Editor Mockup](./hv_4/Documents/03_Card_Editor_Mockup.pdf)
-   * [Card Editor Mockup](./hv_4/Documents/06_Game_Editor_Mockup.pdf)
-   * [Screen Sketches](./hv_4/Documents/05_Screen_Sketches.pdf)
-   * [Block Diagram](./hv_4/Documents/09_Block_Diagram.pdf)
-   
 
    
 ## Web Sockets
  * To create chatting/gaming rooms for players
  * Players are connected themselves not by creating rooms in the server
       
-## Used Library
+## For more details
+   * [Card Editor Mockup](./hv_4/Documents/03_Card_Editor_Mockup.pdf)
+   * [Card Editor Mockup](./hv_4/Documents/06_Game_Editor_Mockup.pdf)
+   * [Screen Sketches](./hv_4/Documents/05_Screen_Sketches.pdf)
+   * [Block Diagram](./hv_4/Documents/09_Block_Diagram.pdf)
+   
+## Used Library/techs
  * Mockito - for testing
+ * Docker
+ * CI/CD for GitLab
