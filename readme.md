@@ -24,10 +24,10 @@ Moderators will be monitoring the new decks of cards and games and need to beapp
    game edit page
    
    ### For more details
-   * [Card Editor Mockup](.\hv_4\Documents\03_Card_Editor_Mockup.pdf)
-   * [Card Editor Mockup](.\hv_4\Documents\06_Game_Editor_Mockup.pdf)
-   * [Screen Sketches](.\hv_4\Documents\05_Screen_Sketches.pdf)
-   * [Block Diagram](.\hv_4\Documents\09_Block_Diagram.pdf)
+   * [Card Editor Mockup](./hv_4/Documents/03_Card_Editor_Mockup.pdf)
+   * [Card Editor Mockup](./hv_4/Documents/06_Game_Editor_Mockup.pdf)
+   * [Screen Sketches](./hv_4/Documents/05_Screen_Sketches.pdf)
+   * [Block Diagram](./hv_4/Documents/09_Block_Diagram.pdf)
    
 
    
