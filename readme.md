@@ -17,10 +17,10 @@ Moderators will be monitoring the new decks of cards and games and need to beapp
   * Each card game should have multi users
      
 ## Android Studio - User interface
-   ![01](./card_editor.png)   
+   ![01](./hv_4/Documents/Captures/card_editor.png)   
    card edit page   
       
-   ![02](./game_editor.png)   
+   ![02](./hv_4/Documents/Captures/game_editor.png)   
    game edit page
    
    ### For more details
