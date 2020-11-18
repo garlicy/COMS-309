@@ -1,31 +1,18 @@
-# Sound-mechanic
+# Card Game Maker
 
-# Problem
-There wer over 275 million cars on the road in the U.S in 2019 with an average age of 11.8 years old.
-Cars being to show more issues as they age. Many car owners are not mechanics and must bring their cars into an auto shop to diagnose these issues and have them fixed. Many seasoned mechanics can easily identify car issues when a car makes an unusual sounds. We want to provide car owners the ability to identify their car issues by sound without the help of a mechanic so that the car owner can use that information to get better repair quotes or to consider fixing the issue on their own.
-
-# Objective
-The objective is to build a service that can help car owners identifier car issues when their car makes unusual noises. This service should be an andriod app that will allow users to record a car sound, upload the sound to a server, and have that sound classified into the proper issue. The following list of car sounds should be supported for classification:
-  * Bad Ball Joint
-  * Bad Brake Pad
-  * Engine Seizing Up
-  * Failing water pump
-  * Hole in muffler
-  * No Problem
+# Description
+Game similar to Super Mario Maker, but uses card.
+Our project will give users the ability to create any type of card games from trading games, gambling games, and etc. It will allow users to create an account to make games, follow other users, customize card decks, and play other users games. There will be an area to find games from default games, popular games, and brand new games.
+There will be three different types of users the Players, Creators, and Moderator.
+The players play any of the games that have been posted and will be able to have a live chat with the other players currently playing. They also can give the ratings to the card game and give a feedback to the Creators. 
+Creators have the ability to create any kind of gamethat they would like and can choose from customized decks to the default deck of cards.
+Last, moderators will be monitoring the new decks of cards and games and need to beapproved before being published.
 
 # Tasks
-## Machine Learning
-  * For each car sound, download as much as possible from youtube containing each sound
-  * Extract the portion of audio from each video that is the car sound and export it as a wav
-  * Convert each wav file into a [**mel - spectrogram**](https://towardsdatascience.com/getting-to-know-the-mel-spectrogram-31bca3e2d9d0) image
-  * Split data into training, validation and test set
-  * Create a classifier for the images of the car sounds
-  * Try data augmentation
-  * Try different architectures
-  * Make classifier as a web service
-  * Track use of classifier
+## Spring Boot 
+  * Each card game should have multi users
      
-## User interface
+## Android Studio - User interface
    ![01](./01.jpg)   
    click diagnose button   
       
@@ -34,11 +21,10 @@ The objective is to build a service that can help car owners identifier car issu
       
    ![03](./03.jpg)   
    result   
-      
+   
+## Web Sockets
+ * To create chatting/gaming rooms for players
+ * Players are connected themselves not by creating rooms in the server
       
 ## Used Library
- * pytorch
- * Fast.ai
- * pytube
- * librosa
- * pydub
+ * Mockito - for testing
