@@ -41,7 +41,7 @@ Moderators will be monitoring the new decks of cards and games and need to beapp
    * [Screen Sketches](./hv_4/Documents/05_Screen_Sketches.pdf)
    * [Block Diagram](./hv_4/Documents/09_Block_Diagram.pdf)
    
-## Used Library/techs
+## Used Library/Techs
  * Mockito - for testing
  * Docker
  * CI/CD for GitLab
