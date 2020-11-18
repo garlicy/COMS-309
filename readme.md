@@ -18,10 +18,10 @@ Moderators will be monitoring the new decks of cards and games and need to beapp
      
 ## Android Studio - User interface
    ![01](./hv_4/Documents/Captures/card_editor.png)   
-   card edit page   
+   Card Edit Page   
       
    ![02](./hv_4/Documents/Captures/game_editor.png)   
-   game edit page
+   Game Edit Page
    
    ### For more details
    * [Card Editor Mockup](./hv_4/Documents/03_Card_Editor_Mockup.pdf)
