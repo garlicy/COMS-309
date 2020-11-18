@@ -15,7 +15,7 @@ Moderators will be monitoring the new decks of cards and games and need to beapp
 # Tasks
 ## Spring Boot 
   * Each card game should have multi users
-  * Server connects Database
+  * Server connects between Database and User
   * Using MVC model
   * User puts data, service fetches it, conveys it to the database
 
