@@ -17,14 +17,19 @@ Moderators will be monitoring the new decks of cards and games and need to beapp
   * Each card game should have multi users
      
 ## Android Studio - User interface
-   ![01](./01.jpg)   
-   click diagnose button   
+   ![01](./card_editor.png)   
+   card edit page   
       
-   ![02](./02.jpg)   
-   record engine sound   
-      
-   ![03](./03.jpg)   
-   result   
+   ![02](./game_editor.png)   
+   game edit page
+   
+   ### For more details
+   [Card Editor Mockup](.\hv_4\Documents\03_Card_Editor_Mockup.pdf)
+   [Card Editor Mockup](.\hv_4\Documents\06_Game_Editor_Mockup.pdf)
+   [Screen Sketches](.\hv_4\Documents\05_Screen_Sketches.pdf)
+   [Block Diagram](.\hv_4\Documents\09_Block_Diagram.pdf)
+   
+
    
 ## Web Sockets
  * To create chatting/gaming rooms for players
