@@ -22,6 +22,10 @@ There will be three different types of users the Players, Creators, and Moderato
   * Using MVC model
   * User puts data, service fetches it, conveys it to the database
 
+## Web Sockets
+ * To create chatting/gaming rooms for players
+ * Players are connected themselves not by creating rooms in the server
+      
 ## MySQL
   * Save the data from user via server
   * Save pre-made games for sample (e.g. War, Poker)
@@ -33,11 +37,6 @@ There will be three different types of users the Players, Creators, and Moderato
    ![02](./hv_4/Documents/Captures/game_editor.png)   
    Game Edit Page
 
-   
-## Web Sockets
- * To create chatting/gaming rooms for players
- * Players are connected themselves not by creating rooms in the server
-      
 ## For more details
    * [Card Editor Mockup](./hv_4/Documents/03_Card_Editor_Mockup.pdf)
    * [Card Editor Mockup](./hv_4/Documents/06_Game_Editor_Mockup.pdf)
